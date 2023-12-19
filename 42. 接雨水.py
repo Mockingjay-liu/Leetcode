@@ -1,4 +1,3 @@
-# 0:03
 import numpy as np
 import time
 class Solution:
