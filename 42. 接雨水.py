@@ -1,5 +1,4 @@
 import numpy as np
-import time
 class Solution:
     # def trap(self, height):
     #     answer = 0
@@ -62,8 +61,5 @@ class Solution:
         return answer
 
 S = Solution()
-start = time.time()
 height = []
 print(S.trap(height))
-print(start, time.time(), time.time()-start)
-print()
