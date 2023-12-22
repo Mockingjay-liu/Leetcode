@@ -17,7 +17,3 @@ class Solution:
 S = Solution()
 nums = [2,7,9,3,1]
 print(S.rob(nums))
-
-
-# 1,2,3,4,5,6,7,8,9,10,11
-
