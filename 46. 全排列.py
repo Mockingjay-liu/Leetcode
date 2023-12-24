@@ -8,6 +8,7 @@ class Solution:
                 for j in range(len(i)+1):
                     x.append(i[:j]+[nums[-1]]+i[j:])
             return x
+
 S = Solution()
 nums = [1]
 print(S.permute(nums))
