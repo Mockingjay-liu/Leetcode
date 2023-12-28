@@ -13,7 +13,6 @@ class Solution:
                 answer[i] = max(answer[i-1], answer[i-2] + nums[i])
         return answer[-1]
 
-
 S = Solution()
 nums = [2,7,9,3,1]
 print(S.rob(nums))
